@@ -12,9 +12,28 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
  You should create one R script called run_analysis.R that does the following. 
 
-    Merges the training and the test sets to create one data set.
-    Extracts only the measurements on the mean and standard deviation for each measurement. 
-    Uses descriptive activity names to name the activities in the data set
-    Appropriately labels the data set with descriptive variable names. 
+    1. Merges the training and the test sets to create one data set.
+    2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+    3. Uses descriptive activity names to name the activities in the data set
+    4. Appropriately labels the data set with descriptive variable names. 
+    5. From the above data, creates a second, independent tidy data set with the average of each variable for                each activity and each subject.
+ 
+ To run the analysis, download the data and unzip it in your working directory.
 
-    From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+The following files will be in your working directory:
+ /UCI HAR Dataset/
+    features.txt
+    activity_labels.txt
+ 
+ /UCI HAR Dataset/test/
+    subject_text.txt
+    X_test.txt
+    y_text.txt
+  
+  /UCI HAR Dataset/train/
+    subject_train.txt
+    X_train.txt
+    y_train.txt
+   
+The output of the fuction will be located
+  /UCI HAR Dataset/tidy_data.txt
