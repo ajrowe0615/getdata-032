@@ -18,7 +18,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     4. Appropriately labels the data set with descriptive variable names. 
     5. From the above data, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
  
- To run the analysis, download the data and unzip it in your working directory.
+To run the analysis, download the data and unzip it in your working directory.
 
 The following files will be in your working directory:
  /UCI HAR Dataset/
